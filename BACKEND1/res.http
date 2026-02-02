@@ -1,0 +1,49 @@
+### Read all users
+GET http://localhost:4000/user-api/users
+
+###read user by objectId
+GET http://localhost:4000/user-api/users/697dbadb84eaf44e27413f19
+
+### 
+POST http://localhost:4000/user-api/users
+Content-Type: application/json
+
+{
+    "username":"sunny",
+    "password":"sunny",
+    "age":100
+    
+}
+
+
+###
+PUT http://localhost:4000/user-api/users/697dbadb84eaf44e27413f19
+Content-Type: application/json
+
+{
+    "username":"chethan123",
+    "password":"chethan123",
+    "age":22
+}   
+
+###
+DELETE http://localhost:4000/user-api/users/697dbf3b4370411c5ba849ed
+
+###
+GET http://localhost:4000/product-api/products
+
+###
+POST http://localhost:4000/product-api/products
+Content-Type: application/json
+
+{
+    "ProductName":"laptop",
+    "price":50000,
+    "pid":101
+}
+
+###
+GET 
+
+###
+PUT 
