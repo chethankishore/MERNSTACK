@@ -9,5 +9,8 @@
   "author": "",
   "license": "ISC",
   "description": "A simple backend demo",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "jsonwebtoken": "^9.0.3"
+  }
 }
