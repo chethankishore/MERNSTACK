@@ -6,7 +6,7 @@ import exp, { json } from 'express'
 
 //create server
 const app=exp()
-
+// port=4000
 //Assign port number
 app.listen(4000,()=>console.log('Http server listening in port 4000.'))
 
